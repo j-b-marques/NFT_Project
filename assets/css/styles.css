@@ -401,7 +401,7 @@ header .card__header .btn__card {
 .collection .collection__ct .collection__images .collection__ex .img__wp {
   width: 250px;
   border-radius: 5px;
-  background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(246, 237, 223) 32%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
+  background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
   opacity: 0.8;
   margin-bottom: 20px;
 }
