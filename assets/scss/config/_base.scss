@@ -18,10 +18,7 @@ h2 {
   padding: 20px 25px;
 }
 .section {
-
   padding: 2.5rem 0 1rem;
-
-
 }
 .blog-post {
   width: clamp(45ch, 50%, 75ch);
@@ -52,6 +49,7 @@ h2 {
   border-radius: 0.5rem;
   font-weight: $fw-bold;
   line-height: 1;
+  padding: 1em 2em;
 
   &:hover,
   &:focus {

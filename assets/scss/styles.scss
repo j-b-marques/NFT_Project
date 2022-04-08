@@ -7,7 +7,6 @@ body {
 }
 
 header {
-
   height: 120vh;
   background-image: $multi-gradient;
   position: relative;
@@ -175,6 +174,101 @@ header {
     }
 
     .btn__card {
+      width: 28ch;
+      text-transform: uppercase;
+      border: none;
+      background-color: $action-color;
+      border-radius: 0;
+      color: $title-color;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.intro {
+  padding-top: 27rem;
+  padding-bottom: 7rem;
+
+  .intro__ct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $title-color;
+    .img__intro__wp {
+      width: 330px;
+      margin-bottom: 30px;
+      img {
+        border-radius: 2px;
+      }
+    }
+
+    .intro__content {
+      text-align: center;
+      h1 {
+        font-size: $fs-big;
+        margin-bottom: 20px;
+      }
+      p {
+        opacity: 0.6;
+        font-size: $fs-normal;
+        margin-bottom: 30px;
+      }
+      a {
+        width: 28ch;
+        text-transform: uppercase;
+        border: none;
+        background-color: $action-color;
+        border-radius: 0;
+        color: $title-color;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+.collection {
+  background-color: #0d183b;
+  .collection__ct {
+    color: $title-color;
+    text-align: center;
+
+    .collection__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 60px;
+      h1 {
+        font-size: $fs-big;
+        margin-bottom: 20px;
+      }
+      span {
+        font-size: 1rem;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 0.85rem;
+        opacity: 0.6;
+      }
+    }
+
+    .collection__images {
+      margin-bottom: 80px;
+      .collection__ex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img__wp {
+          width: 250px;
+          border-radius: 5px;
+          background-image: $multi-gradient;
+          opacity: 0.8;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    a {
       width: 28ch;
       text-transform: uppercase;
       border: none;

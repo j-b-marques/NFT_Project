@@ -142,6 +142,7 @@ h2 {
   border-radius: 0.5rem;
   font-weight: 700;
   line-height: 1;
+  padding: 1em 2em;
 }
 .btn:hover, .btn:focus {
   opacity: 0.9;
@@ -316,6 +317,95 @@ header .card__header .card__info .time span {
   font-weight: 900;
 }
 header .card__header .btn__card {
+  width: 28ch;
+  text-transform: uppercase;
+  border: none;
+  background-color: #ec538d;
+  border-radius: 0;
+  color: #fcfdff;
+  margin-bottom: 30px;
+}
+
+.intro {
+  padding-top: 27rem;
+  padding-bottom: 7rem;
+}
+.intro .intro__ct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fcfdff;
+}
+.intro .intro__ct .img__intro__wp {
+  width: 330px;
+  margin-bottom: 30px;
+}
+.intro .intro__ct .img__intro__wp img {
+  border-radius: 2px;
+}
+.intro .intro__ct .intro__content {
+  text-align: center;
+}
+.intro .intro__ct .intro__content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.intro .intro__ct .intro__content p {
+  opacity: 0.6;
+  font-size: 0.938rem;
+  margin-bottom: 30px;
+}
+.intro .intro__ct .intro__content a {
+  width: 28ch;
+  text-transform: uppercase;
+  border: none;
+  background-color: #ec538d;
+  border-radius: 0;
+  color: #fcfdff;
+  margin-bottom: 30px;
+}
+
+.collection {
+  background-color: #0d183b;
+}
+.collection .collection__ct {
+  color: #fcfdff;
+  text-align: center;
+}
+.collection .collection__ct .collection__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.collection .collection__ct .collection__content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.collection .collection__ct .collection__content span {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.collection .collection__ct .collection__content p {
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+.collection .collection__ct .collection__images {
+  margin-bottom: 80px;
+}
+.collection .collection__ct .collection__images .collection__ex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collection .collection__ct .collection__images .collection__ex .img__wp {
+  width: 250px;
+  border-radius: 5px;
+  background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(246, 237, 223) 32%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+.collection .collection__ct a {
   width: 28ch;
   text-transform: uppercase;
   border: none;
