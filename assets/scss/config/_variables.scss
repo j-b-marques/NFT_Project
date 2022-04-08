@@ -1,0 +1,47 @@
+/*=============== GOOGLE FONTS ===============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); /*=============== VARIABLES CSS ===============*/
+
+/*========== Colors ==========*/
+$body-color: #081030;
+$title-color: #fcfdff;
+$brand-color: #06112f;
+$action-color: #ec538d;
+
+$multi-gradient: linear-gradient(
+  291deg,
+  rgba(242, 237, 252, 1) 3%,
+  rgba(242, 237, 252, 1) 13%,
+  rgba(191, 218, 240, 1) 24%,
+  rgba(246, 237, 223, 1) 32%,
+  rgba(254, 192, 250, 1) 52%,
+  rgba(201, 210, 255, 1) 61%,
+  rgba(247, 255, 239, 1) 95%
+);
+$btn-bkg: #601467;
+$card-bkg: #40165d;
+
+/*========== Font and typography ==========*/
+$fam-font: 'Open Sans', sans-serif;
+$fs-big: 1.5rem;
+$fs-normal: 0.938rem;
+$fs-small: 0.813rem;
+
+//Weight
+$fw-light: 300;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-bolder: 900;
+
+// Responsive typography
+@media screen and (min-width: 968px) {
+  $fs-big: 2rem;
+  $fs-normal: 1rem;
+  $fs-small: 0.875rem;
+}
+
+/*========== Z index ==========*/
+$z-fixed: 100;
+$z-front: 10;
+$z-middle: 5;
+$z-back: 1;
