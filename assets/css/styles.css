@@ -87,6 +87,21 @@ select {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 374px) {
+  .lines__wp {
+    height: auto !important;
+  }
+  .lines__wp .line1 {
+    width: 2px;
+    height: 320px;
+    background-color: #ec538d;
+  }
+  .lines__wp .line2 {
+    width: 2px;
+    height: 320px;
+    background-color: #081030;
+  }
+}
 /* For medium devices */
 /* For large devices */
 /*=============== GENERAL STYLES===============*/
@@ -400,14 +415,14 @@ header .card__header .btn__card {
   align-items: center;
 }
 .collection .collection__ct .collection__images .collection__ex .img__wp {
-  box-shadow: inset 9px 9px 4px #f2e6e6, inset -9px -9px 4px #fdb8b8;
+  /*  box-shadow: inset 9px 9px 4px #f2e6e6, inset -9px -9px 4px #fdb8b8; */
   width: 250px;
-  border-radius: 5px;
   background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
   margin-bottom: 20px;
-}
-.collection .collection__ct .collection__images .collection__ex:nth-child(odd) .img__wp {
-  box-shadow: inset 9px 9px 4px #fdb8b8, inset -9px -9px 4px #f2e6e6;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 15px;
+  border-image-source: linear-gradient(105deg, rgb(242, 237, 252) 12%, rgb(191, 218, 240) 23%, rgb(246, 237, 223) 33%, rgb(254, 192, 250) 38%, rgb(201, 210, 255) 47%, rgb(247, 255, 239) 88%);
 }
 .collection .collection__ct a {
   width: 28ch;
