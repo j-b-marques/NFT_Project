@@ -597,6 +597,7 @@ footer .footer__ct .line {
   height: 1px;
   background-color: #06112f;
   opacity: 0.4;
+  margin-bottom: 10px;
 }
 footer .footer__ct .copys {
   display: flex;
