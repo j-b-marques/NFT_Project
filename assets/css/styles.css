@@ -413,4 +413,99 @@ header .card__header .btn__card {
   border-radius: 0;
   color: #fcfdff;
   margin-bottom: 30px;
+}
+
+.roadmap {
+  background-color: #0d183b;
+}
+.roadmap .roadmap__ct .roadmap__wrapper {
+  background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
+  color: #06112f;
+  padding: 50px 25px 30px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__title h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__title span {
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map {
+  display: flex;
+  margin-bottom: 50px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .lines__wp {
+  height: 640px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .lines__wp .line1 {
+  width: 2px;
+  height: 320px;
+  background-color: #ec538d;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .lines__wp .cube {
+  width: 7px;
+  height: 7px;
+  background-color: #ec538d;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .lines__wp .line2 {
+  width: 2px;
+  height: 320px;
+  background-color: #081030;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .lines__wp .arrow {
+  color: #06112f;
+  font-size: 0.7rem;
+  transform: translate(0, -4px);
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .map__content__wp {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .map__content__wp h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__map .map__content__wp p {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__launch {
+  margin-bottom: 40px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__launch .launch__lead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__launch .launch__lead h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__launch .launch__lead i {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 1.5rem;
+}
+.roadmap .roadmap__ct .roadmap__wrapper .roadmap__launch span {
+  text-transform: uppercase;
+  font-size: 1rem;
 }/*# sourceMappingURL=styles.css.map */
