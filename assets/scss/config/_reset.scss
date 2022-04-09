@@ -1,3 +1,4 @@
+@use 'variables' as *;
 /*=============== RESET STYLES ===============*/
 /* Box sizing rules */
 *,
@@ -28,7 +29,7 @@ html {
   scroll-behavior: smooth;
 }
 
-button{
+button {
   border: none;
   outline: none;
 }
@@ -42,6 +43,7 @@ body {
 /* A elements that don't have a class get default styles */
 a {
   text-decoration: none;
+  color: $title-color;
 }
 
 /* Make images easier to work with */

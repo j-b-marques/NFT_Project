@@ -259,6 +259,7 @@ header {
         flex-direction: column;
         align-items: center;
         .img__wp {
+          box-shadow: inset 9px 9px 4px #f2e6e6, inset -9px -9px 4px #fdb8b8;
           width: 250px;
           border-radius: 5px;
           background-image: linear-gradient(
@@ -270,7 +271,6 @@ header {
             rgba(201, 210, 255, 1) 61%,
             rgba(247, 255, 239, 1) 95%
           );
-          opacity: 0.8;
           margin-bottom: 20px;
         }
       }
@@ -292,6 +292,7 @@ header {
   background-color: #0d183b;
   .roadmap__ct {
     .roadmap__wrapper {
+      margin-bottom: 80px;
       background-image: linear-gradient(
         291deg,
         rgba(242, 237, 252, 1) 3%,
@@ -404,6 +405,126 @@ header {
         span {
           text-transform: uppercase;
           font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.team {
+  .team__ct {
+    .roadmap__team {
+      text-align: center;
+      color: $title-color;
+      h1 {
+        font-size: 1.5rem;
+        font-weight: $fw-bolder;
+        margin-bottom: 10px;
+      }
+      span {
+        font-size: 1rem;
+        font-weight: $fw-bold;
+        opacity: 0.8;
+        display: inline-block;
+        margin-bottom: 40px;
+      }
+
+      .team__wrapper {
+        .member {
+          .img__wp {
+            margin: 0 auto;
+            width: 250px;
+            margin-bottom: 30px;
+            img {
+              border-radius: 5px;
+            }
+          }
+          h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+          }
+          span {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.faqs {
+  background-color: #0d183b;
+  .faqs__ct {
+    color: $title-color;
+    text-align: center;
+    margin-bottom: 40px;
+    .faqs__title {
+      margin-bottom: 40px;
+      h1 {
+        font-size: 1.5rem;
+        font-weight: $fw-bolder;
+        margin-bottom: 10px;
+      }
+      span {
+        font-size: 1rem;
+        font-weight: $fw-bold;
+        opacity: 0.8;
+      }
+    }
+
+    .faqs__wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      text-align: left;
+      a {
+        border: 1px solid $title-color;
+        padding: 15px 12px;
+        opacity: 0.8;
+        color: $title-color;
+      }
+    }
+  }
+}
+
+footer {
+  background-image: linear-gradient(
+    291deg,
+    rgba(242, 237, 252, 1) 3%,
+    rgba(242, 237, 252, 1) 13%,
+    rgba(191, 218, 240, 1) 24%,
+    rgba(254, 192, 250, 1) 52%,
+    rgba(201, 210, 255, 1) 61%,
+    rgba(247, 255, 239, 1) 95%
+  );
+  .footer__ct {
+    .footer__content {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 10px;
+      a {
+        color: $brand-color;
+        font-weight: $fw-bold;
+        opacity: 0.7;
+      }
+    }
+
+    .line {
+      width: 100%;
+      height: 1px;
+      background-color: $brand-color;
+      opacity: 0.4;
+    }
+
+    .copys {
+      display: flex;
+      justify-content: center;
+
+      span {
+        font-weight: $fw-bold;
+        span {
+          color: #d6249f;
         }
       }
     }

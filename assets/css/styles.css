@@ -1,5 +1,9 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*========== Font and typography ==========*/
+/*========== Z index ==========*/
 /*=============== RESET STYLES ===============*/
 /* Box sizing rules */
 *,
@@ -46,6 +50,7 @@ body {
 /* A elements that don't have a class get default styles */
 a {
   text-decoration: none;
+  color: #fcfdff;
 }
 
 /* Make images easier to work with */
@@ -80,10 +85,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-/*=============== VARIABLES CSS ===============*/
-/*========== Colors ==========*/
-/*========== Font and typography ==========*/
-/*========== Z index ==========*/
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 /* For medium devices */
@@ -399,10 +400,10 @@ header .card__header .btn__card {
   align-items: center;
 }
 .collection .collection__ct .collection__images .collection__ex .img__wp {
+  box-shadow: inset 9px 9px 4px #f2e6e6, inset -9px -9px 4px #fdb8b8;
   width: 250px;
   border-radius: 5px;
   background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
-  opacity: 0.8;
   margin-bottom: 20px;
 }
 .collection .collection__ct a {
@@ -419,6 +420,7 @@ header .card__header .btn__card {
   background-color: #0d183b;
 }
 .roadmap .roadmap__ct .roadmap__wrapper {
+  margin-bottom: 80px;
   background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
   color: #06112f;
   padding: 50px 25px 30px;
@@ -508,4 +510,101 @@ header .card__header .btn__card {
 .roadmap .roadmap__ct .roadmap__wrapper .roadmap__launch span {
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+.team .team__ct .roadmap__team {
+  text-align: center;
+  color: #fcfdff;
+}
+.team .team__ct .roadmap__team h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.team .team__ct .roadmap__team span {
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.8;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.team .team__ct .roadmap__team .team__wrapper .member .img__wp {
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 30px;
+}
+.team .team__ct .roadmap__team .team__wrapper .member .img__wp img {
+  border-radius: 5px;
+}
+.team .team__ct .roadmap__team .team__wrapper .member h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.team .team__ct .roadmap__team .team__wrapper .member span {
+  font-size: 0.9rem;
+}
+
+.faqs {
+  background-color: #0d183b;
+}
+.faqs .faqs__ct {
+  color: #fcfdff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.faqs .faqs__ct .faqs__title {
+  margin-bottom: 40px;
+}
+.faqs .faqs__ct .faqs__title h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.faqs .faqs__ct .faqs__title span {
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.faqs .faqs__ct .faqs__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: left;
+}
+.faqs .faqs__ct .faqs__wrapper a {
+  border: 1px solid #fcfdff;
+  padding: 15px 12px;
+  opacity: 0.8;
+  color: #fcfdff;
+}
+
+footer {
+  background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
+}
+footer .footer__ct .footer__content {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+footer .footer__ct .footer__content a {
+  color: #06112f;
+  font-weight: 700;
+  opacity: 0.7;
+}
+footer .footer__ct .line {
+  width: 100%;
+  height: 1px;
+  background-color: #06112f;
+  opacity: 0.4;
+}
+footer .footer__ct .copys {
+  display: flex;
+  justify-content: center;
+}
+footer .footer__ct .copys span {
+  font-weight: 700;
+}
+footer .footer__ct .copys span span {
+  color: #d6249f;
 }/*# sourceMappingURL=styles.css.map */
