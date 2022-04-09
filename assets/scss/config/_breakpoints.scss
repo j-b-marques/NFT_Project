@@ -3,19 +3,7 @@
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 374px) {
-  .lines__wp {
-    height: auto !important;
-    .line1 {
-      width: 2px;
-      height: 320px;
-      background-color: $action-color;
-    }
-    .line2 {
-      width: 2px;
-      height: 320px;
-      background-color: $body-color;
-    }
-  }
+
 }
 @media screen and (min-width: 585px) {
 }

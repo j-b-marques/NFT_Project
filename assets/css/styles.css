@@ -87,21 +87,6 @@ select {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 374px) {
-  .lines__wp {
-    height: auto !important;
-  }
-  .lines__wp .line1 {
-    width: 2px;
-    height: 320px;
-    background-color: #ec538d;
-  }
-  .lines__wp .line2 {
-    width: 2px;
-    height: 320px;
-    background-color: #081030;
-  }
-}
 /* For medium devices */
 /* For large devices */
 /*=============== GENERAL STYLES===============*/
