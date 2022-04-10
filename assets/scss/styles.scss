@@ -184,6 +184,9 @@ header {
       margin-bottom: 30px;
     }
   }
+
+  //********NAVIGATION*********
+
 }
 
 .intro {
@@ -284,6 +287,10 @@ header {
             rgba(201, 210, 255, 1) 47%,
             rgba(247, 255, 239, 1) 88%
           );
+
+          img {
+            animation: spin 20s linear infinite;
+          }
         }
       }
     }
@@ -543,5 +550,15 @@ footer {
         }
       }
     }
+  }
+}
+
+//**************
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

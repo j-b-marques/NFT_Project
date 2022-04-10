@@ -410,6 +410,10 @@ header .card__header .btn__card {
   border-width: 15px;
   border-image-source: linear-gradient(105deg, rgb(242, 237, 252) 12%, rgb(191, 218, 240) 23%, rgb(246, 237, 223) 33%, rgb(254, 192, 250) 38%, rgb(201, 210, 255) 47%, rgb(247, 255, 239) 88%);
 }
+.collection .collection__ct .collection__images .collection__ex .img__wp img {
+  -webkit-animation: spin 20s linear infinite;
+          animation: spin 20s linear infinite;
+}
 .collection .collection__ct a {
   width: 28ch;
   text-transform: uppercase;
@@ -614,4 +618,22 @@ footer .footer__ct .copys span {
 }
 footer .footer__ct .copys span span {
   color: #d6249f;
+}
+
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=styles.css.map */
