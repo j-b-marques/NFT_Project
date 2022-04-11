@@ -43,7 +43,6 @@
 @media screen and (min-width: 1024px) {
   header {
     height: 100vh !important;
-   
     background-color: $brand-color !important;
     background-image: none !important;
 
@@ -82,7 +81,11 @@
     }
 
     //*****FIXES BACKGROUND DESKTOP*******
+    .header__ct{
+      display:  grid !important;
+    }
     .header__content {
+      align-self: center !important;
       display: flex;
       flex-direction: column;
       align-items: flex-start !important;
