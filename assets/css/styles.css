@@ -636,4 +636,33 @@ footer .footer__ct .copys span span {
   to {
     transform: rotate(360deg);
   }
+}
+.mobile__menu {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  position: fixed;
+  gap: 20px;
+  background-color: #d6249f;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  z-index: 4;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in;
+}
+.mobile__menu i {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 2rem;
+  color: #fcfdff;
+  cursor: pointer;
+}
+.mobile__menu a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */

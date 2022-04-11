@@ -1,17 +1,16 @@
 //******** CLOSE MOBILE MENU **********/
-
 const openMenu = document.querySelector('.burguer__menu');
-const mobileMenu = document.querySelector('.nav__mobile');
+const mobileMenu = document.querySelector('.mobile__menu');
 
 openMenu.addEventListener('click', () => {
-  mobileMenu.style.top = '50%';
+  mobileMenu.style.top = '0';
 });
 
 const closeMenu = document.querySelector('.close__menu');
-const mobileMenuClose = document.querySelector('.nav__mobile');
+const mobileMenuClose = document.querySelector('.mobile__menu');
 
 closeMenu.addEventListener('click', () => {
-  mobileMenuClose.style.top = '150%';
+  mobileMenuClose.style.top = '-100%';
 });
 
 //*********** PREVENT DEAFAULT BEHAVIOUR ****************/

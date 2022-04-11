@@ -186,7 +186,6 @@ header {
   }
 
   //********NAVIGATION*********
-
 }
 
 .intro {
@@ -560,5 +559,36 @@ footer {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+//******MOBILE MENU*******
+.mobile__menu {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  position: fixed;
+  gap: 20px;
+  background-color: #d6249f;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  z-index: 4;
+  font-size: $fs-big;
+  transition: all 0.5s ease-in;
+  i {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 2rem;
+    color: $title-color;
+    cursor: pointer;
+  }
+  a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
   }
 }
