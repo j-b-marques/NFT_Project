@@ -115,6 +115,32 @@ select {
   }
 }
 /* For large devices */
+@media screen and (min-width: 1024px) {
+  header .burguer__menu {
+    display: none !important;
+  }
+  header .desktop__menu {
+    display: flex !important;
+    gap: 20px;
+  }
+  header .desktop__menu a {
+    color: #081030;
+    font-size: 1.3rem;
+    font-weight: 700;
+    opacity: 0.8;
+  }
+  header .btn__discord {
+    display: block !important;
+    font-weight: 700;
+    border-radius: 22px;
+    text-transform: uppercase;
+    background: #06112f;
+    color: #fcfdff;
+  }
+  header .btn__discord:hover {
+    opacity: 0.9;
+  }
+}
 /*=============== GENERAL STYLES===============*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -213,6 +239,12 @@ header {
   position: relative;
   z-index: 1;
   padding-top: 1rem !important;
+}
+header .desktop__menu {
+  display: none;
+}
+header .btn__discord {
+  display: none;
 }
 header .overlay {
   position: absolute;

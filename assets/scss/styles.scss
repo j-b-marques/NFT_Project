@@ -13,6 +13,13 @@ header {
   z-index: 1;
   padding-top: 1rem !important;
 
+  .desktop__menu {
+    display: none;
+  }
+  .btn__discord {
+    display: none;
+  }
+
   .overlay {
     position: absolute;
     height: 100%;

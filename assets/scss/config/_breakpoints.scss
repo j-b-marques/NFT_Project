@@ -41,4 +41,32 @@
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
+  header {
+    .burguer__menu {
+      display: none !important;
+    }
+
+    .desktop__menu {
+      display: flex !important;
+      gap: 20px;
+      a {
+        color: $body-color;
+        font-size: 1.3rem;
+        font-weight: $fw-bold;
+        opacity: 0.8;
+      }
+    }
+
+    .btn__discord {
+      display: block !important;
+      font-weight: $fw-bold;
+      border-radius: 22px;
+      text-transform: uppercase;
+      background: $brand-color;
+      color: $title-color;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
 }
