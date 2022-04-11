@@ -3,13 +3,32 @@
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 374px) {
-
 }
 @media screen and (min-width: 585px) {
 }
 
 /* For medium devices */
 @media screen and (min-width: 767px) {
+  .header__content {
+    h1 {
+      font-size: 3rem !important;
+    }
+    p {
+      font-size: 1.2rem !important;
+    }
+    button {
+      font-size: 1.2rem !important;
+    }
+  }
+  //*************
+  .map__content__wp {
+    h2 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem !important;
+    }
+  }
 }
 
 /* For large devices */

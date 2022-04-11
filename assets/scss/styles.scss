@@ -372,6 +372,7 @@ header {
           display: flex;
           flex-direction: column;
           gap: 50px;
+          max-width: 45ch;
           h2 {
             font-size: 1.2rem;
             font-weight: $fw-bold;
@@ -495,6 +496,7 @@ header {
       flex-direction: column;
       gap: 30px;
       text-align: left;
+      margin: 0 auto;
       a {
         border: 1px solid $title-color;
         padding: 15px 12px;
@@ -571,7 +573,17 @@ footer {
   padding-top: 10rem;
   position: fixed;
   gap: 20px;
-  background-color: #d6249f;
+  background: linear-gradient(
+    195deg,
+    #d6249f,
+    #da3ea7,
+    #de51b0,
+    #e262b8,
+    #e672bf,
+    #e981c7,
+    #ed8fcf,
+    #f09dd6
+  );
   width: 100%;
   height: 100%;
   top: -100%;
