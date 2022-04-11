@@ -446,7 +446,7 @@ h2 {
 /**Develop Styles*/
 body {
   background-color: #081030;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
