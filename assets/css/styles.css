@@ -135,7 +135,7 @@ select {
     opacity: 0.8;
   }
   header .desktop__menu a:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     text-decoration: underline;
     -webkit-text-decoration-color: #ec538d;
             text-decoration-color: #ec538d;
@@ -188,6 +188,8 @@ select {
   header .card__header .img__header__wp {
     width: 220px;
     margin-bottom: 10px;
+    -webkit-animation: twist2 9s linear infinite;
+            animation: twist2 9s linear infinite;
   }
   header .card__header .card__info {
     display: flex;
@@ -914,6 +916,72 @@ footer .footer__ct .copys span span {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes twist {
+  0% {
+    transform: rotateY(0deg) rotateZ(0);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(360deg);
+  }
+  100% {
+    transform: rotateY(-360deg) rotateZ(360deg);
+  }
+}
+@keyframes twist {
+  0% {
+    transform: rotateY(0deg) rotateZ(0);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(360deg);
+  }
+  100% {
+    transform: rotateY(-360deg) rotateZ(360deg);
+  }
+}
+@-webkit-keyframes twist2 {
+  0% {
+    transform: rotateY(-360deg) rotateZ(360deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(360deg);
+  }
+  100% {
+    transform: rotateY(-360deg) rotateZ(360deg);
+  }
+}
+@keyframes twist2 {
+  0% {
+    transform: rotateY(-360deg) rotateZ(360deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(360deg);
+  }
+  100% {
+    transform: rotateY(-360deg) rotateZ(360deg);
   }
 }
 .mobile__menu {

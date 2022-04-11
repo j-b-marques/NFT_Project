@@ -60,7 +60,7 @@
         opacity: 0.8;
 
         &:hover {
-          opacity: 0.9;
+          opacity: 0.8;
           text-decoration: underline;
           text-decoration-color: $action-color;
           text-decoration-thickness: 2px;
@@ -118,6 +118,7 @@
       .img__header__wp {
         width: 220px;
         margin-bottom: 10px;
+        animation: twist2 9s linear infinite;
       }
       .card__info {
         display: flex;
