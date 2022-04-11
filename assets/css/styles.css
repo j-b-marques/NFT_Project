@@ -116,6 +116,11 @@ select {
 }
 /* For large devices */
 @media screen and (min-width: 1024px) {
+  header {
+    height: 100vh !important;
+    background-color: #06112f !important;
+    background-image: none !important;
+  }
   header .burguer__menu {
     display: none !important;
   }
@@ -139,6 +144,145 @@ select {
   }
   header .btn__discord:hover {
     opacity: 0.9;
+  }
+  header .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    text-align: left !important;
+    max-width: 60ch !important;
+  }
+  header .header__content h1 {
+    font-size: 3.2rem !important;
+    font-weight: 900;
+  }
+  header .header__content p {
+    font-size: 1.3rem !important;
+  }
+  header .header__content button {
+    font-size: 1.2rem !important;
+  }
+  header .overlay__desktop {
+    display: block !important;
+    position: absolute;
+    background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(246, 237, 223) 32%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
+    width: 67%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  header .card__header {
+    width: 320px;
+    transform: translate(50%, -47%) !important;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 15px;
+  }
+  header .card__header .img__header__wp {
+    width: 220px;
+    margin-bottom: 10px;
+  }
+  header .card__header .card__info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  header .card__header .card__info .bids {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  header .card__header .card__info .bids i {
+    font-size: 1.3rem;
+  }
+  header .card__header .card__info .bids .bids__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header .card__header .card__info .bids .bids__info span:nth-child(1) {
+    font-size: 0.8rem;
+    opacity: 0.6;
+  }
+  header .card__header .card__info .bids .bids__info span:nth-child(2) {
+    font-size: 0.9rem;
+    font-weight: 900;
+  }
+  header .card__header .card__info .time i {
+    font-size: 0.6rem;
+  }
+  header .card__header .card__info .time span {
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+  header .card__header .btn__card {
+    width: 28ch;
+    text-transform: uppercase;
+    border: none;
+    background-color: #ec538d;
+    border-radius: 0;
+    color: #fcfdff;
+    margin-bottom: 30px;
+  }
+
+  .intro {
+    padding-top: 20rem !important;
+    padding-bottom: 18rem !important;
+    position: relative !important;
+  }
+  .intro .intro__ct .img__intro__wp {
+    width: 700px !important;
+    position: absolute;
+    left: 0;
+    top: 25%;
+  }
+  .intro .intro__ct .intro__content {
+    position: relative !important;
+    left: 33%;
+    text-align: left !important;
+    max-width: 80ch !important;
+  }
+
+  .roadmap .roadmap__ct .roadmap__map {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center !important;
+    position: relative;
+  }
+  .roadmap .roadmap__ct .roadmap__map .lines__wp {
+    position: relative;
+    left: 22%;
+  }
+  .roadmap .roadmap__ct .roadmap__map .map__content__wp .content_1,
+.roadmap .roadmap__ct .roadmap__map .map__content__wp .content_3 {
+    text-align: left !important;
+    position: relative;
+    left: 50%;
+  }
+  .roadmap .roadmap__ct .roadmap__map .map__content__wp .content_2,
+.roadmap .roadmap__ct .roadmap__map .map__content__wp .content_4 {
+    text-align: right !important;
+    position: relative;
+    left: -56%;
+    top: -3%;
+  }
+  .roadmap .roadmap__ct .roadmap__launch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faqs .faqs__ct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .faqs .faqs__ct a {
+    width: 50ch !important;
   }
 }
 /*=============== GENERAL STYLES===============*/
@@ -246,6 +390,9 @@ header .desktop__menu {
 header .btn__discord {
   display: none;
 }
+header .overlay__desktop {
+  display: none;
+}
 header .overlay {
   position: absolute;
   height: 100%;
@@ -313,7 +460,7 @@ header .header__ct .header__content p {
   margin-bottom: 50px;
 }
 header .header__ct .header__content button {
-  border: 1px solid #ec538d;
+  border: 2px solid #ec538d;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 0;

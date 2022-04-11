@@ -42,6 +42,10 @@
 /* For large devices */
 @media screen and (min-width: 1024px) {
   header {
+    height: 100vh !important;
+    background-color: $brand-color !important;
+    background-image: none !important;
+
     .burguer__menu {
       display: none !important;
     }
@@ -66,6 +70,166 @@
       color: $title-color;
       &:hover {
         opacity: 0.9;
+      }
+    }
+
+    //*****FIXES BACKGROUND DESKTOP*******
+    .header__content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start !important;
+      text-align: left !important;
+      max-width: 60ch !important;
+      h1 {
+        font-size: 3.2rem !important;
+        font-weight: $fw-bolder;
+      }
+      p {
+        font-size: 1.3rem !important;
+      }
+      button {
+        font-size: 1.2rem !important;
+      }
+    }
+
+    .overlay__desktop {
+      display: block !important;
+      position: absolute;
+      background-image: $multi-gradient;
+      width: 67%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .card__header {
+      width: 320px;
+      transform: translate(50%, -47%) !important;
+      border: 10px solid;
+      border-image-slice: 1;
+      border-width: 15px;
+      .img__header__wp {
+        width: 220px;
+        margin-bottom: 10px;
+      }
+      .card__info {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        .bids {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          i {
+            font-size: 1.3rem;
+          }
+          .bids__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            span:nth-child(1) {
+              font-size: 0.8rem;
+              opacity: 0.6;
+            }
+            span:nth-child(2) {
+              font-size: 0.9rem;
+              font-weight: $fw-bolder;
+            }
+          }
+        }
+        .time {
+          i {
+            font-size: 0.6rem;
+          }
+
+          span {
+            font-size: 0.7rem;
+            font-weight: $fw-bolder;
+          }
+        }
+      }
+
+      .btn__card {
+        width: 28ch;
+        text-transform: uppercase;
+        border: none;
+        background-color: $action-color;
+        border-radius: 0;
+        color: $title-color;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .intro {
+    padding-top: 20rem !important;
+    padding-bottom: 18rem !important;
+    position: relative !important ;
+
+    .intro__ct {
+      .img__intro__wp {
+        width: 700px !important;
+        position: absolute;
+        left: 0;
+        top: 25%;
+      }
+
+      .intro__content {
+        position: relative !important;
+        left: 33%;
+        text-align: left !important;
+        max-width: 80ch !important;
+      }
+    }
+  }
+  .roadmap {
+    .roadmap__ct {
+      .roadmap__map {
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: center !important;
+        position: relative;
+
+        .lines__wp {
+          position: relative;
+          left: 22%;
+        }
+
+        .map__content__wp {
+          .content_1,
+          .content_3 {
+            text-align: left !important;
+            position: relative;
+            left: 50%;
+          }
+          .content_2,
+          .content_4 {
+            text-align: right !important;
+            position: relative;
+            left: -56%;
+            top: -3%;
+          }
+        }
+      }
+      .roadmap__launch {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  .faqs {
+    .faqs__ct {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+
+      a {
+        width: 50ch !important;
       }
     }
   }
