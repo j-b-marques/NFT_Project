@@ -134,6 +134,13 @@ select {
     font-weight: 700;
     opacity: 0.8;
   }
+  header .desktop__menu a:hover {
+    opacity: 0.9;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #ec538d;
+            text-decoration-color: #ec538d;
+    text-decoration-thickness: 2px;
+  }
   header .btn__discord {
     display: block !important;
     font-weight: 700;
@@ -243,7 +250,32 @@ select {
     text-align: left !important;
     max-width: 80ch !important;
   }
+  .intro .intro__ct .intro__content h1 {
+    font-size: 2rem !important;
+  }
+  .intro .intro__ct .intro__content p {
+    font-size: 1.1rem !important;
+  }
 
+  .collection .collection__content h1 {
+    font-size: 2.3rem !important;
+  }
+  .collection .collection__content span {
+    font-size: 1.3rem !important;
+  }
+  .collection .collection__content p {
+    font-size: 1.1rem !important;
+  }
+
+  .roadmap .roadmap__ct .roadmap__title h1 {
+    font-size: 2.3rem !important;
+  }
+  .roadmap .roadmap__ct .roadmap__title span {
+    font-size: 1.3rem !important;
+  }
+  .roadmap .roadmap__ct p {
+    font-size: 1rem !important;
+  }
   .roadmap .roadmap__ct .roadmap__map {
     display: flex;
     margin-bottom: 50px;
@@ -272,6 +304,20 @@ select {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+  .roadmap .roadmap__ct .roadmap__launch h1 {
+    font-size: 1.5rem !important;
+  }
+  .roadmap .roadmap__ct .roadmap__launch span {
+    font-size: 1.2rem !important;
+  }
+
+  .team h1 {
+    font-size: 2.3rem !important;
+  }
+  .team span:first-of-type {
+    font-size: 1rem !important;
   }
 
   .faqs .faqs__ct {
@@ -281,8 +327,33 @@ select {
     align-items: center;
     gap: 60px;
   }
+  .faqs .faqs__ct h1 {
+    font-size: 2.3rem !important;
+  }
+  .faqs .faqs__ct span {
+    font-size: 1.1rem !important;
+  }
   .faqs .faqs__ct a {
     width: 50ch !important;
+  }
+
+  footer a {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .overlay__desktop {
+    display: block !important;
+    position: absolute;
+    background-image: linear-gradient(291deg, rgb(242, 237, 252) 3%, rgb(242, 237, 252) 13%, rgb(191, 218, 240) 24%, rgb(246, 237, 223) 32%, rgb(254, 192, 250) 52%, rgb(201, 210, 255) 61%, rgb(247, 255, 239) 95%);
+    width: 65% !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .card__header {
+    transform: translate(50%, -47%) !important;
   }
 }
 /*=============== GENERAL STYLES===============*/

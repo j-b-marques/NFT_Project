@@ -58,6 +58,13 @@
         font-size: 1.3rem;
         font-weight: $fw-bold;
         opacity: 0.8;
+
+        &:hover {
+          opacity: 0.9;
+          text-decoration: underline;
+          text-decoration-color: $action-color;
+          text-decoration-thickness: 2px;
+        }
       }
     }
 
@@ -179,11 +186,43 @@
         left: 33%;
         text-align: left !important;
         max-width: 80ch !important;
+        h1 {
+          font-size: 2rem !important;
+        }
+        p {
+          font-size: 1.1rem !important;
+        }
+      }
+    }
+  }
+
+  .collection {
+    .collection__content {
+      h1 {
+        font-size: 2.3rem !important;
+      }
+      span {
+        font-size: 1.3rem !important;
+      }
+      p {
+        font-size: 1.1rem !important;
       }
     }
   }
   .roadmap {
     .roadmap__ct {
+      .roadmap__title {
+        h1 {
+          font-size: 2.3rem !important;
+        }
+        span {
+          font-size: 1.3rem !important;
+        }
+      }
+
+      p {
+        font-size: 1rem !important;
+      }
       .roadmap__map {
         display: flex;
         margin-bottom: 50px;
@@ -216,7 +255,23 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        h1 {
+          font-size: 1.5rem !important;
+        }
+        span {
+          font-size: 1.2rem !important;
+        }
       }
+    }
+  }
+
+  .team {
+    h1 {
+      font-size: 2.3rem !important;
+    }
+    span:first-of-type {
+      font-size: 1rem !important;
     }
   }
 
@@ -228,9 +283,38 @@
       align-items: center;
       gap: 60px;
 
+      h1 {
+        font-size: 2.3rem !important;
+      }
+      span {
+        font-size: 1.1rem !important;
+      }
+
       a {
         width: 50ch !important;
       }
     }
+  }
+
+  footer {
+    a {
+      font-size: 1.1rem !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .overlay__desktop {
+    display: block !important;
+    position: absolute;
+    background-image: $multi-gradient;
+    width: 65% !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .card__header {
+    transform: translate(50%, -47%) !important;
   }
 }

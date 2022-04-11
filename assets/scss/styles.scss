@@ -20,7 +20,7 @@ header {
     display: none;
   }
 
-  .overlay__desktop{
+  .overlay__desktop {
     display: none;
   }
 
@@ -208,6 +208,7 @@ header {
     flex-direction: column;
     align-items: center;
     color: $title-color;
+
     .img__intro__wp {
       width: 330px;
       margin-bottom: 30px;
