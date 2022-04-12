@@ -319,6 +319,34 @@
   }
 
   .card__header {
-    transform: translate(50%, -47%) !important;
+    transform: translate(50%, -50%) !important;
+  }
+
+  .intro {
+    padding-top: 20rem !important;
+    padding-bottom: 18rem !important;
+    position: relative !important ;
+
+    .intro__ct {
+      .img__intro__wp {
+        width: 700px !important;
+        position: absolute;
+        left: 0;
+        top: 32%;
+      }
+
+      .intro__content {
+        position: relative !important;
+        left: 25%;
+        text-align: left !important;
+        max-width: 70ch !important;
+        h1 {
+          font-size: 2rem !important;
+        }
+        p {
+          font-size: 1.1rem !important;
+        }
+      }
+    }
   }
 }
