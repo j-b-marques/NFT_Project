@@ -373,7 +373,7 @@ select {
   }
   .intro .intro__ct .intro__content {
     position: relative !important;
-    left: 32%;
+    left: 30%;
     text-align: left !important;
     max-width: 70ch !important;
   }
