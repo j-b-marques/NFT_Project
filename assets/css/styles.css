@@ -184,7 +184,7 @@ select {
   }
   header .card__header {
     width: 320px;
-    transform: translate(50%, -47%) !important;
+    transform: translate(25%, -33%) !important;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 15px;
