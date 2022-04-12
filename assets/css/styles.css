@@ -243,16 +243,16 @@ select {
     position: relative !important;
   }
   .intro .intro__ct .img__intro__wp {
-    width: 700px !important;
+    width: 550px !important;
     position: absolute;
     left: 0;
-    top: 25%;
+    top: 32%;
   }
   .intro .intro__ct .intro__content {
     position: relative !important;
-    left: 33%;
+    left: 25%;
     text-align: left !important;
-    max-width: 80ch !important;
+    max-width: 60ch !important;
   }
   .intro .intro__ct .intro__content h1 {
     font-size: 2rem !important;
@@ -563,8 +563,6 @@ header .card__header {
 header .card__header .img__header__wp {
   width: 220px;
   margin-bottom: 10px;
-  -webkit-animation: twist2 9s linear infinite;
-          animation: twist2 9s linear infinite;
 }
 header .card__header .card__info {
   display: flex;
